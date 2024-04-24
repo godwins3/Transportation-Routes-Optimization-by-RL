@@ -1,9 +1,7 @@
 import torch
 import torch.nn as nn
-import torch.nn.functional as F
 import torch.optim as optim
 
-import numpy as np
 
 from utils import Rollouts
 from agent.networks import Actor,Critic

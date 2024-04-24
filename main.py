@@ -1,7 +1,4 @@
 import torch
-import torch.nn as nn
-import torch.nn.functional as F
-import torch.optim as optim
 from torch.distributions import Categorical
 from tensorboardX import SummaryWriter
 
@@ -9,7 +6,6 @@ from agent.agent import Agent
 from environment.Building import Building
 from utils import is_finish, state_preprocessing
 import argparse
-import numpy as np
 import os
 os.makedirs('./model_weights', exist_ok=True)
 import time
