@@ -2,3 +2,5 @@ model_weights/*
 
 .ipynb_checkpoints/
 __pycache__/
+.vscode/
+runs/
